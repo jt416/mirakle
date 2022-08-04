@@ -8,6 +8,7 @@ before_install:
 script:
   - ./.travis-ssh.sh
   - ./gradlew mirakle:build mirakle:publishMiraklePublicationPublicationToMavenLocal plugin-test:test
+  - echo JPT
 cache:
   directories:
     - '$HOME/.m2/repository'
