@@ -207,6 +207,7 @@ object StartParametersTest : Spek({
                         "prop1" to "true",
                         "prop2" to "2",
                         "prop3" to "foobar"
+                        "prop4" to "foo bar"
                 )
 
                 buildFileWriter().use {
